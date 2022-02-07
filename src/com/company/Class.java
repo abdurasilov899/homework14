@@ -13,6 +13,10 @@ public class Class {
         this.name = name;
         this.nomer = nomer;
         this.massiva = massiva;
+        System.out.print(name + " " + nomer + " ");
+        for (int a : massiva) {
+            System.out.print(a + " ");
+        }
     }
 
     public String getName() {
@@ -32,6 +36,7 @@ public class Class {
     }
 
     public int[] getMassiva() {
+
         return massiva;
     }
 
